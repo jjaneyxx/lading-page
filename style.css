@@ -62,9 +62,31 @@ header {
   font-weight: 700;
 }
 
+.headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headline-content {
+  display: flex;
+}
+
 .headline-image {
   width: 504px;
   height: 520px;
+  padding: 100px;
+}
+
+.headline-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headline-heading,
+.headline-description {
+  display: inline-block;
 }
 
 .headline-heading {
@@ -83,6 +105,9 @@ header {
   background-color: #280357;
   margin: 200px 0;
   padding: 80px 180px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .promotion-content h2 {
