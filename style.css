@@ -219,6 +219,23 @@ footer {
   background-color: #14161f;
 }
 
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer-up {
+  grid-column: span 2;
+  display: flex;
+  width: fit-content;
+  gap: 50px;
+  padding: 20px 20px 20px 0;
+}
+
+.footer-up > :first-child {
+  margin-left: 0;
+}
+
 .footer-content a {
   color: #ffffff;
   text-decoration: none;
@@ -227,4 +244,5 @@ footer {
 .footer-info {
   color: #ffffff;
   color: rgba(255, 255, 255, 0.4);
+  padding-top: 20px;
 }
