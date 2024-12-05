@@ -152,10 +152,22 @@ header {
   border: 2px solid #ffffff;
   border-radius: 50px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card.event {
   border-color: #7f5fff;
+  position: relative;
+}
+
+/*position 으로 오른쪽 상단으로 옮기기*/
+.event-badge {
+  position: absolute;
+  left: 70%;
+  top: 5%;
 }
 
 .card h3 {
