@@ -142,12 +142,15 @@ header {
 
 .plans {
   margin-bottom: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 
 .card {
   padding: 56px 96px;
   border: 2px solid #ffffff;
-  border-radius: 16px;
+  border-radius: 50px;
   text-align: center;
 }
 
